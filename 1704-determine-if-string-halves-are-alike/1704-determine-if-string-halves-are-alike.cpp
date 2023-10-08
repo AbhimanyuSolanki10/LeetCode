@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool halvesAreAlike(string s) {
+        int x = 0;
         unordered_map<char,int> mp = {{'a',1},{'e',1},{'i',1},{'o',1},{'u',1}};
         int cnt = 0,temp = 0;
         for(int i=0;i<s.size();i++){
