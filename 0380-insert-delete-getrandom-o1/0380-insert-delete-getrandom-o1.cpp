@@ -2,10 +2,11 @@ class RandomizedSet {
 private:
     unordered_map<int, int> map;
     vector<int> nums;
-
+    int a;
 public:
     RandomizedSet()
     {
+        a = 0
     }
 
     bool insert(int val)
